@@ -34,7 +34,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-**Security Notes**
+##Security Notes
 
 All files are encrypted locally using Fernet symmetric encryption.
 
@@ -43,6 +43,6 @@ Face data is stored locally and used only for authentication.
 The app runs entirely on localhost for privacy and security.
 
 
-Author
+##Author
 
 Kirtan Patel – Student / Developer
