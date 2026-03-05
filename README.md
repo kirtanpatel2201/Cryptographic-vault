@@ -17,30 +17,6 @@ A **secure encrypted storage system** built with Python and Streamlit, featuring
 
 ---
 
-## Project Structure
-
-
-Cryptographic-vault/
-│
-├── app.py
-├── core/
-│ ├── crypto_utils.py
-│ ├── face_auth.py
-│ └── vault.py
-├── database/
-│ ├── users.json
-│ └── key.key
-├── storage/
-│ ├── faces/
-│ └── vaults/
-├── utils/
-│ └── helpers.py
-├── requirements.txt
-└── README.md
-
-
----
-
 ## Installation
 
 1. Clone this repository:
@@ -58,7 +34,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-*Security Notes*
+**Security Notes**
 
 All files are encrypted locally using Fernet symmetric encryption.
 
